@@ -56,7 +56,7 @@ Use search to find needed section.
     * 'fixed-page-footer' - Fixes footer
     * 'container'         - boxed layout mode (non-responsive: will not work with fixed-navigation & fixed-ribbon)
 -->
-<body class="smart-style-4">
+<body class="smart-style-4" style="overflow-x: hidden;">
 
 <!-- #HEADER -->
 <header id="header">
@@ -268,7 +268,7 @@ Use search to find needed section.
         </div>
         <!-- end row -->
 
-        <section id="widget-grid" class="">
+        <section id="body" class="">
 
             <div class="row">
 
