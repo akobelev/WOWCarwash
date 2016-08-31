@@ -1,5 +1,11 @@
 <ol class="breadcrumb">
-    <li>Home</li><li>Miscellaneous</li><li>Blank Page</li>
+    <li>
+        <a href="#">Home</a>
+    </li>
+    <li>
+        <a href="#">Misc</a>
+    </li>
+    <li>Blank Page</li>
 </ol>
 
 {{--Additional buttons for Bradcrumb bar--}}

@@ -56,7 +56,7 @@ Use search to find needed section.
     * 'fixed-page-footer' - Fixes footer
     * 'container'         - boxed layout mode (non-responsive: will not work with fixed-navigation & fixed-ribbon)
 -->
-<body class="smart-style-4" style="overflow-x: hidden;">
+<body class="smart-style-4 fixed-page-footer fixed-header fixed-ribbon" style="overflow-x: hidden;">
 
 <!-- #HEADER -->
 <header id="header">
@@ -111,108 +111,13 @@ Use search to find needed section.
         </div>
         <!-- END AJAX-DROPDOWN -->
     </div>
-
-    <!-- #PROJECTS: projects dropdown -->
-    <div class="project-context hidden-xs">
-
-        <span class="label">Branches:</span>
-        <span class="project-selector dropdown-toggle" data-toggle="dropdown">
-            Select the branch <i class="fa fa-angle-down"></i>
-        </span>
-
-        <!-- Suggestion: populate this list with fetch and push technique -->
-        <ul class="dropdown-menu">
-            <li>
-                <a href="javascript:">Florida</a>
-            </li>
-            <li>
-                <a href="javascript:">Fort Lauderdale</a>
-            </li>
-            <li class="divider"></li>
-            <li>
-                <a href="javascript:"><i class="fa fa-power-off"></i> Clear</a>
-            </li>
-        </ul>
-        <!-- end dropdown-menu-->
-
-    </div>
-    <!-- end projects dropdown -->
-
-    <!-- #TOGGLE LAYOUT BUTTONS -->
-    <!-- pulled right: nav area -->
+    @include('layouts.partials._top-branch-selector')
     <div class="pull-right">
 
-        <!-- collapse menu button -->
-        <div id="hide-menu" class="btn-header pull-right">
-            <span> <a href="javascript:" data-action="toggleMenu" title="Collapse Menu"><i
-                            class="fa fa-reorder"></i></a> </span>
-        </div>
-        <!-- end collapse menu -->
-
-        <!-- #MOBILE -->
-        <!-- Top menu profile link : this shows only when top menu is active -->
-        <ul id="mobile-profile-img" class="header-dropdown-list hidden-xs padding-5">
-            <li class="">
-                <a href="#" class="dropdown-toggle no-margin userdropdown" data-toggle="dropdown">
-                    <img src="/template/img/avatars/sunny.png" alt="John Doe" class="online"/>
-                </a>
-                <ul class="dropdown-menu pull-right">
-                    <li>
-                        <a href="javascript:" class="padding-10 padding-top-0 padding-bottom-0"><i
-                                    class="fa fa-cog"></i> Setting</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#" class="padding-10 padding-top-0 padding-bottom-0"> <i
-                                    class="fa fa-user"></i> <u>P</u>rofile</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="javascript:" class="padding-10 padding-top-0 padding-bottom-0"
-                           data-action="toggleShortcut"><i class="fa fa-arrow-down"></i> <u>S</u>hortcut</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="javascript:" class="padding-10 padding-top-0 padding-bottom-0"
-                           data-action="launchFullscreen"><i class="fa fa-arrows-alt"></i> Full <u>S</u>creen</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="#" class="padding-10 padding-top-5 padding-bottom-5" data-action="userLogout"><i
-                                    class="fa fa-sign-out fa-lg"></i> <strong><u>L</u>ogout</strong></a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <div id="logout" class="btn-header transparent pull-right">
-            <span><a href="#" title="Sign Out"><i class="fa fa-sign-out"></i></a></span>
-        </div>
-
-        <!-- search mobile button (this is hidden till mobile view port) -->
-        <div id="search-mobile" class="btn-header transparent pull-right">
-            <span> <a href="javascript:" title="Search"><i class="fa fa-search"></i></a> </span>
-        </div>
-        <!-- end search mobile button -->
-
-        <form action="#" class="header-search pull-right">
-            <input id="search-fld" type="text" name="param" placeholder="Find reports and more">
-            <button type="submit">
-                <i class="fa fa-search"></i>
-            </button>
-            <a href="javascript:" id="cancel-search-js" title="Cancel Search"><i class="fa fa-times"></i></a>
-        </form>
-
-        <div id="fullscreen" class="btn-header transparent pull-right">
-            <span> <a href="javascript:" data-action="launchFullscreen" title="Full Screen"><i
-                            class="fa fa-arrows-alt"></i></a> </span>
-        </div>
-
+        @include('layouts.partials._top-actions')
         @include('layouts.partials._top-language-selector')
 
     </div>
-    <!-- end pulled right: nav area -->
-
 </header>
 <!-- END HEADER -->
 
@@ -311,7 +216,33 @@ Use search to find needed section.
     </div>
 </div>
 
-
+<!-- SHORTCUT AREA : With large tiles (activated via clicking user name tag)
+		Note: These tiles are completely responsive,
+		you can add as many as you like
+		-->
+<div id="shortcut">
+    <ul>
+        <li>
+            <a href="#" class="jarvismetro-tile big-cubes bg-color-blue"> <span class="iconbox"> <i class="fa fa-envelope fa-4x"></i> <span>Mail <span class="label pull-right bg-color-darken">14</span></span> </span> </a>
+        </li>
+        <li>
+            <a href="#" class="jarvismetro-tile big-cubes bg-color-orangeDark"> <span class="iconbox"> <i class="fa fa-calendar fa-4x"></i> <span>Calendar</span> </span> </a>
+        </li>
+        <li>
+            <a href="#" class="jarvismetro-tile big-cubes bg-color-purple"> <span class="iconbox"> <i class="fa fa-map-marker fa-4x"></i> <span>Maps</span> </span> </a>
+        </li>
+        <li>
+            <a href="#" class="jarvismetro-tile big-cubes bg-color-blueDark"> <span class="iconbox"> <i class="fa fa-book fa-4x"></i> <span>Invoice <span class="label pull-right bg-color-darken">99</span></span> </span> </a>
+        </li>
+        <li>
+            <a href="#" class="jarvismetro-tile big-cubes bg-color-greenLight"> <span class="iconbox"> <i class="fa fa-picture-o fa-4x"></i> <span>Gallery </span> </span> </a>
+        </li>
+        <li>
+            <a href="#" class="jarvismetro-tile big-cubes selected bg-color-pinkDark"> <span class="iconbox"> <i class="fa fa-user fa-4x"></i> <span>My Profile </span> </span> </a>
+        </li>
+    </ul>
+</div>
+<!-- END SHORTCUT AREA -->
 @include('layouts.partials._scripts')
 </body>
 

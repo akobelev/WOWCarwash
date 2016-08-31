@@ -40,7 +40,7 @@
  * GLOBAL: Sound Config (define sound path, enable or disable all sounds)
  */
 	$.sound_path = "sound/";
-	$.sound_on = true; 
+	$.sound_on = false;
 /*
  * SAVE INSTANCE REFERENCE (DO NOT CHANGE)
  * Save a reference to the global object (window in the browser)
@@ -51,7 +51,7 @@
  * debugState = true; will spit all debuging message inside browser console.
  * The colors are best displayed in chrome browser.
  */
-	debugState = false,	
+	debugState = false,
 	debugStyle = 'font-weight: bold; color: #00f;',
 	debugStyle_green = 'font-weight: bold; font-style:italic; color: #46C246;',
 	debugStyle_red = 'font-weight: bold; color: #ed1c24;',
@@ -73,7 +73,7 @@
  * keep expanding and may distrupt the user experience This is best 
  * used with fixed-menu class
  */
-	menu_accordion = true,	
+	menu_accordion = true,
 /*
  * Turn on JarvisWidget functionality
  * Global JarvisWidget Settings
@@ -81,7 +81,7 @@
  * found within COMMON_ASSETS/UNMINIFIED_JS folder and see from line 1355
  * dependency: js/jarviswidget/jarvis.widget.min.js
  */
-	enableJarvisWidgets = true,
+	enableJarvisWidgets = false,
 /*
  * Use localstorage to save widget settings
  * turn this off if you prefer to use the onSave hook to save
@@ -103,7 +103,7 @@
  * Enable this to activate fastclick plugin
  * dependency: js/plugin/fastclick/fastclick.js 
  */
-	fastClick = false,
+	fastClick = true,
 /*
  * SMARTCHAT PLUGIN ARRAYS & CONFIG
  * Dependency: js/plugin/moment/moment.min.js 
@@ -131,7 +131,7 @@
  * VOICE COMMAND CONFIG
  * dependency: js/speech/voicecommand.js
  */
-	voice_command = true,
+	voice_command = false,
 /*
  * Turns on speech as soon as the page is loaded
  */	
@@ -330,4 +330,3 @@
  
  
  
- 	

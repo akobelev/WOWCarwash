@@ -3,7 +3,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <img src="/template/img/blank.gif" class="flag flag-us" alt="United States">
             <span> English (US) </span>
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-caret-down"></i>
         </a>
         <ul class="dropdown-menu pull-right">
             <li class="active">
