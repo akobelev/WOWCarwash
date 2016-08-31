@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome', compact('a'));
-});
+Route::get('/', 'DashboardController@index')->middleware(['auth'])->name('index');
+
+Auth::routes();
+
+Route::get('/login', 'Auth\LoginController@index')->middleware(['guest'])->name('login');
+Route::post('/login', 'Auth\LoginController@login')->middleware(['guest'])->name('login.post');

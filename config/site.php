@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'name' => 'WOW Car Wash',
+    'name' => 'Without Water Carwash',
 ];

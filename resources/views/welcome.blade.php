@@ -1,55 +1,11 @@
 @extends('layouts.backend')
 
 @section('body')
-    <h1>test</h1>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta, et fuga magni odio officiis similique sunt unde veritatis. Ad consectetur cumque deleniti ex nesciunt non recusandae, repudiandae sunt velit.
-    <br />
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at dolorum eius et odio placeat quas repellendus sapiente sunt voluptatibus? Cum cupiditate, ducimus ipsam placeat quod rem repellat unde ut.</h3>
+        </div>
+    </div>
 @endsection
 
 @section('css')
